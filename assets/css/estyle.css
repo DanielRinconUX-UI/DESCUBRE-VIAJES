@@ -1,0 +1,77 @@
+.style {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.precio-oferta {
+    color: #28a745;
+}
+
+.formulario-contacto {
+    background-color: #ff94e1;
+
+}
+
+.footer {
+    background-image: url('./assets/img/orquidea\ con\ fondo.png'); /* Ruta de la imagen de fondo */
+    background-size: unset  ;
+    padding-left: 05px;
+    padding-right: 05px;
+}
+
+#boton-enviar {
+    background-color: #ffffff !important;
+}
+
+    .logo-footer {
+        width: 125px;
+        height: 85px;
+    }
+
+
+    /* Agrega este código a tu CSS existente */
+
+.card {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .img-tarjeta {
+    object-fit: cover;
+    height: 200px; /* Establece la altura inicial para las imágenes dentro de las tarjetas */
+  }
+  
+  @media (min-width: 768px) {
+    .img-tarjeta {
+      height: 250px; /* Aumenta la altura para pantallas más grandes */
+    }
+  }
+  
+  .navbar .nav-link {
+    font-size: 18px; /* Cambia el tamaño de fuente según tus preferencias */
+  }
+  
+  .navbar .navbar-brand {
+    font-size: 24px; /* Cambia el tamaño de fuente según tus preferencias */
+  }
+
+  .legend-recibe-cupones {
+    color: grey; 
+    opacity: 0.8; /
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    
+  }
+  
+  .card-img-top {
+    max-height: 70%; /* Ajusta la altura máxima de la imagen */
+    object-fit: cover; /* Ajusta la imagen sin distorsionarla */
+  }
